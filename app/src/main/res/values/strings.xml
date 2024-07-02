@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="algebra_calculator">Algebra Calculator</string>
+    <string name="back_button_description">Back</string>
+</resources>

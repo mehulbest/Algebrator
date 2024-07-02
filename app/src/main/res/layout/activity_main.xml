@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_a"
+        android:hint="Enter number A"
+        android:inputType="numberDecimal"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginBottom="12dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/et_b"
+        android:hint="Enter number B"
+        android:inputType="numberDecimal"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:background="@drawable/rounded_edittext"
+        android:layout_marginBottom="24dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="24dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btn_add"
+            android:text="+"
+            android:textSize="18sp"
+            android:layout_margin="4dp"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btn_subtraction"
+            android:text="-"
+            android:textSize="18sp"
+            android:layout_margin="4dp"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btn_multiplication"
+            android:text="*"
+            android:textSize="18sp"
+            android:layout_margin="4dp"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/btn_division"
+            android:text="/"
+            android:textSize="18sp"
+            android:layout_margin="4dp"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_clear_all"
+        android:text="Clear All"
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_algebra"
+        android:text="Algebra Calculator"
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/result_tv"
+        android:text="Result"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:padding="16dp"
+        android:background="@drawable/rounded_textview"/>
+</LinearLayout>
