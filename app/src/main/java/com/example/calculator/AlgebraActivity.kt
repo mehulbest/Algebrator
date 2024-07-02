@@ -8,7 +8,7 @@ import android.widget.ImageButton
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.Toolbar
-import net.objecthunter.exp4j.ExpressionBuildergit
+import net.objecthunter.exp4j.ExpressionBuilder
 
 class AlgebraActivity : AppCompatActivity(), View.OnClickListener {
 
